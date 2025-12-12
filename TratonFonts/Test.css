@@ -31,14 +31,34 @@ src: url('https://contigo-consulting-ag.github.io/Traton/TratonFonts/TRATONTypeD
     }
 
 /* -------------------------------------- */
-/* ENABLE TABULAR NUMBERS FOR ALL TABLES  */
+/* TABULAR NUMBERS FOR TABLES AND WIDGETS */
 /* -------------------------------------- */
 
+/* All SAC table cells */
 .sap-custom-table-data-cell,
 .sap-custom-table-measure-data-cell,
 .sap-custom-table-dimension-member-cell {
-  font-family: 'TEST';
-  font-feature-settings: "tnum";
-  -webkit-font-feature-settings: "tnum";
-  -moz-font-feature-settings: "tnum";
+  font-family: 'TEST' !important;
+  font-feature-settings: "tnum" !important;
+  -webkit-font-feature-settings: "tnum" !important;
+  -moz-font-feature-settings: "tnum" !important;
+}
+
+/* Any text widget or measure using the font */
+.sapUiBody,
+.sapUiBody * {
+  font-family: 'TEST' !important;
+  font-feature-settings: "tnum" !important;
+  -webkit-font-feature-settings: "tnum" !important;
+  -moz-font-feature-settings: "tnum" !important;
+}
+
+/* Optional: enforce tabular numbers for numeric labels, axis, story elements */
+.sapVizAxis, 
+.sapVizMeasureLabel, 
+.sapVizDimensionLabel {
+  font-family: 'TEST' !important;
+  font-feature-settings: "tnum" !important;
+  -webkit-font-feature-settings: "tnum" !important;
+  -moz-font-feature-settings: "tnum" !important;
 }
