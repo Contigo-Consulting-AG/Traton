@@ -1,6 +1,6 @@
 @font-face {
 font-family: 'Test';
-font-style: normal;
+font-style: traton;
 font-weight: 400;
 font-display: swap;
 font-feature-settings: "tnum" 1;
@@ -9,7 +9,7 @@ src: url('https://contigo-consulting-ag.github.io/Traton/TratonFonts/TRATONTypeD
 
 @font-face {
     font-family: 'Test';
-    font-style: normal;
+    font-style: traton;
     font-weight: 700;
     font-display: swap;
     font-feature-settings: "tnum" 1;
@@ -33,6 +33,7 @@ src: url('https://contigo-consulting-ag.github.io/Traton/TratonFonts/TRATONTypeD
     font-feature-settings: "tnum" 1;
     src: url('https://contigo-consulting-ag.github.io/Traton/TratonFonts/TRATONTypeDisplay-BoldItalic.ttf') format('truetype');
     }
+
 
 .sap-custom-table-dimension-member-cell {
     /* Ensure your custom font is used */
