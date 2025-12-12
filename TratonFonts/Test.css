@@ -37,6 +37,7 @@ src: url('https://contigo-consulting-ag.github.io/Traton/TratonFonts/TRATONTypeD
 .sap-custom-table-data-cell,
 .sap-custom-table-measure-data-cell,
 .sap-custom-table-dimension-member-cell {
+  font-family: 'TEST';
   font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
